@@ -31,14 +31,14 @@ languages:
                   weight: 10
                 - name: WiKi
                   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-                - name: Discord
-                  url: https://discord.gg/ahpmTvhVmp
+                - name: Contact
+                  url: https://consciouscontact.netlify.app
 
     fr:
         languageName: ":fr:"
         languageAltTitle: French
         weight: 2
-        title: PaperModL2
+        title: ConsciousConsult
         taxonomies:
           category: FRcategories
           tag: FRtags
@@ -58,20 +58,14 @@ languages:
                   url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
         menu:
             main:
-                - name: Archive
-                  url: archives/
-                  weight: 5
-                - name: FRTags
-                  url: frtags
-                  weight: 10
                 - name: FRCategories
                   url: frcategories
                   weight: 10
                 - name: FRSeries
                   url: frseries
                   weight: 10
-                - name: NullLink
-                  url: "#"
+                - name: Contact
+                  url: https://consciouscontact.netlify.app
 
   
 
@@ -115,29 +109,19 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "Conscious Consult"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
-
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX. This starter supports editing posts with NetlifyCMS, login at /admin. Most other configs (including this message!) happen in config.yml in the root directory.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
+            We keep you updated on the newest technologies to keep you running smoothly!
+            We compare products so you don't have to!
     socialIcons:
-        - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
+        - name: Youtube
+          url: "https://github.com/alexmoody2114"
+        - name: Twitter
+          url: "https://github.com/alexmoody2114"
         - name: Rss
           url: "index.xml"
 
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
-
+ 
     # label:
     #     text: "Home"
     #     icon: icon.png
