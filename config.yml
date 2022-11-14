@@ -39,23 +39,12 @@ languages:
         languageAltTitle: French
         weight: 2
         title: ConsciousConsult
-        taxonomies:
-          category: FRcategories
-          tag: FRtags
-          series: FRseries
-        profileMode:
-            enabled: true
             title: ConsciousConsult
             imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
             imageTitle: ProfileMode image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Profile Mode
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive
         menu:
             main:
                 - name: FRCategories
