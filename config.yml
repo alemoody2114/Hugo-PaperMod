@@ -26,14 +26,8 @@ languages:
           series: series
         menu:
             main:
-                - name: Archive
-                  url: archives
-                  weight: 5
                 - name: Search
                   url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
                   weight: 10
                 - name: WiKi
                   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
@@ -79,22 +73,7 @@ languages:
                 - name: NullLink
                   url: "#"
 
-    fa:
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        taxonomies:
-          category: FAcategories
-          tag: FAtags
-          series: FAseries
-        menu:
-            main:
-                - name: FATags
-                  url: fatags
-                  weight: 10
+  
 
 outputs:
     home:
