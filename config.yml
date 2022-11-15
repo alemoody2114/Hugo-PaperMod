@@ -93,7 +93,7 @@ params:
 
     profileMode:
         enabled: false
-        title: PaperMod
+        title: Conscious Consulting
         imageUrl: "#"
         imageTitle: my image
         # imageWidth: 120
@@ -105,15 +105,13 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "Conscious Consulting"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX. This starter supports editing posts with NetlifyCMS, login at /admin. Most other configs (including this message!) happen in config.yml in the root directory.
-            - Do give a 🌟 on Github !
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            Made with Github and NetlifyCMS, login at /admin.
+            
     socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+          url: "https://github.com/"
         - name: KoFi
           url: "https://ko-fi.com/adityatelange"
         - name: Rss
