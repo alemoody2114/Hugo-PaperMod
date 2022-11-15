@@ -1,7 +1,7 @@
 
 
 baseURL: "/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: PaperMod
+title: Conscious Consulting
 paginate: 5
 theme: hugo-PaperMod
 
@@ -39,14 +39,14 @@ languages:
         languageName: ":fr:"
         languageAltTitle: French
         weight: 2
-        title: PaperModL2
+        title: Conscient Consultant
         taxonomies:
           category: FRcategories
           tag: FRtags
           series: FRseries
         profileMode:
             enabled: true
-            title: PaperMod
+            title: Conscient Consultant
             imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
             imageTitle: ProfileMode image
             # imageWidth: 120
@@ -55,8 +55,8 @@ languages:
             buttons:
                 - name: Blog
                   url: posts
-                - name: Profile Mode
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+                - name: Contact
+                  url: https://consciouscontact.netlify.app
         menu:
             main:
                 - name: Archive
